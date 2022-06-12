@@ -1,7 +1,7 @@
 -- Select
 Select * from Movies -- all movies
 
-select MovieName as 'Film Adý',Description as 'Açýklama' from Movies --Only MovieNames and Descriptions
+select MovieName as 'Film Adi',Description as 'Aciklama' from Movies --Only MovieNames and Descriptions
 
 select FirstName+' '+LastName as 'FullName',UserName from Users
 
@@ -46,8 +46,8 @@ select CHARINDEX('@', 'enesserenli@hotmail.com') -- Location
 select LEFT('Enes Serenli ', 4) --number of characters from the left
 select Right('Enes Serenli', 4) --number of characters from the right
 select Len('Enes Serenli') --number of character
-select lower('ENES SERENLÝ') -- enlarges all characters
-select upper('enes serenli') -- shrinks all characters  
+select lower('ENES SERENLI') -- shrinks all characters
+select upper('enes serenli') -- enlarges all characters
 select LTRIM('              enes serenli') -- deletes spaces on the left
 select RTRIM('enes serenli            ') -- deletes spaces on the right
 select LTRIM( RTRIM('     enes             '    )) -- deletes spaces on the everywhere
